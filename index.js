@@ -33,7 +33,7 @@ const NAME_DATA = 'name';
 
 firebaseAdmin.initializeApp({
   credential: firebaseAdmin.credential.cert(cert),
-  databaseURL: 'https://<DATABASE_NAME>.firebaseio.com'
+  databaseURL: 'https://namepsychictest.firebaseio.com'
 });
 
 function encodeAsFirebaseKey(string) {

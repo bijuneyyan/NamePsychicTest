@@ -18,7 +18,7 @@ const ApiAiApp = require('actions-on-google').ApiAiApp;
 const firebaseAdmin = require('firebase-admin');
 
 // Import local JSON file as Cloud Function dependency
-const cert = require('path/to/serviceAccountKey.json');
+const cert = require('http://bijuneyyan.info/NamePsychicTestKey/namepsychictest-firebase-adminsdk-xac88-716194a40d.json');
 
 // API.AI actions
 const WELCOME_ACTION = 'input.welcome';
